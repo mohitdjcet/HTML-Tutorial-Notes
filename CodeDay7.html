@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and Figure</title>
+    <style>
+        body {
+            font-family: Arial,
+                sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        figure {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #555;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Images Internal and External -->
+    <img src="/Image/image1.png" alt="Internal Image" width="200" height="200">
+    <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="External Image" width="200" height="200">
+
+    <!-- Figure and Figcaption -->
+    <figure>
+        <img src="/Image/image1.png" alt="Internal Image" width="200" height="200">
+        <figcaption>Internal Image</figcaption>
+    </figure>
+    <figure>
+        <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="External Image" width="200" height="200">
+        <figcaption>External Image</figcaption>
+    </figure>
+
+    <!-- Task: Build a travel blog with destination images by using figure and figcaption. -->
+    <h1>My Travel Blog</h1>
+    <div class="container">
+        <figure>
+            <img src="/Image/image1.png" alt="Beautiful beach in Bali" width="600" height="400">
+            <figcaption>A stunning view of the beach in Bali, Indonesia.</figcaption>
+        </figure>
+        <figure>
+            <img src="/Image/image1.png" alt="Snowy mountains in Switzerland" width="600" height="400">
+            <figcaption>Snow-capped mountains in the Swiss Alps, Switzerland.</figcaption>
+        </figure>
+        <figure>
+            <img src="/Image/image1.png" alt="Eiffel Tower in Paris" width="600" height="400">
+            <figcaption>The iconic Eiffel Tower in Paris, France.</figcaption>
+        </figure>
+    </div>
+
+</body>
+
+</html>
