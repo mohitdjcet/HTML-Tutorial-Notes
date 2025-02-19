@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Blog Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Styles */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            display: flex;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        section {
+            flex: 3;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        article h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        article p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Sidebar Styles */
+        aside {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        aside ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Normal HTML -->
+        <div id="header">
+            <h1>My Blog</h1>
+            <div id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div id="main-content">
+            <div class="post">
+                <h2>Blog Post 1</h2>
+                <p>This is the content of the first blog post.</p>
+            </div>
+            <div class="post">
+                <h2>Blog Post 2</h2>
+                <p>This is the content of the second blog post.</p>
+            </div>
+        </div>
+    
+        <div id="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Blog Post 1</a></li>
+                <li><a href="#">Blog Post 2</a></li>
+            </ul>
+        </div>
+    
+        <div id="footer">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+        </div>
+
+    <!-- Basic Blog Page need to change HTML5 Tags -->
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Blog Post 1</h2>
+                <p>This is the content of the first blog post. </p>
+            </article>
+            <article>
+                <h2>Blog Post 2</h2>
+                <p>This is the content of the second blog post. </p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Blog Post 1</a></li>
+                <li><a href="#">Blog Post 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
