@@ -1,6 +1,9 @@
 🚀 **Master HTML from Scratch in Hindi!**  
 Welcome to the **HTML Full Course Playlist** by Mohit Decodes! Whether you're a complete beginner or looking to refresh your skills, this step-by-step tutorial series will guide you through everything you need to know about HTML. By the end of this playlist, you'll be able to create your own web pages and kickstart your journey into web development.  
 
+## YouTube Channel
+Check out the full tutorial series on my [YouTube Channel](https://www.youtube.com/@MohitDecodes).
+
 📚 **What You'll Learn in This Playlist:**  
 ✅ **HTML Basics**: Understand the structure of HTML, tags, attributes, and elements.  
 ✅ **Creating Web Pages**: Learn to use headings, paragraphs, lists, links, and images.  
