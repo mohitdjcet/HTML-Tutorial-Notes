@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form with multiple question types.</title>
+</head>
+<body>
+    <form>
+        <h1>Survey form</h1>
+
+        <!-- Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br><br>
+
+        <!-- Gender Radio button -->
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+    
+        <!-- hobbies checkbox -->
+        <label>Hobbies</label>
+        <Label><input type="checkbox" id="reading" name="hobbies" value="Reading">Reading</Label>
+        <Label><input type="checkbox" id="writing" name="hobbies" value="Writing">Writing</Label>
+        <Label><input type="checkbox" id="coding" name="hobbies" value="Coding">Coding</Label>
+        <br><br>
+
+        <!-- country dropdown -->
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br><br>
+
+        <!-- Textfield -->
+        <label >Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="8" cols="100" required></textarea>
+        <br><br>
+
+        <!-- File upload -->
+        <label>Upload your resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+        <br><br>
+
+        <!-- Pattern regex form -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+  
+</body>
+</html>
