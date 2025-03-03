@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Local storage simple Example  </title>
+</head>
+<body>
+    <!-- HTML5 Local storage simple Example  -->
+    <h1>HTML5 Local storage simple Example</h1>
+    <p>Enter your name:</p>
+    <input type="text" id="name">
+    <button onclick="saveData()">Save</button>
+    <button onclick="showData()">Show</button>
+    <p id="result"></p>
+    <script>
+        function saveData() {
+            var name = document.getElementById('name').value;
+            localStorage.setItem('name', name);
+            document.getElementById('name').value = '';
+        }
+        function showData() {
+            var name = localStorage.getItem('name');
+            document.getElementById('result').innerHTML = 'Name: ' + name;
+        }
+    </script>
+    
+</body>
+</html>
